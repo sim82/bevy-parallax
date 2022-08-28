@@ -155,5 +155,5 @@ impl ParallaxResource {
 }
 
 /// Attach to a single camera to be used with parallax
-#[derive(Component)]
+#[derive(Component, Default)]
 pub struct ParallaxCameraComponent;
